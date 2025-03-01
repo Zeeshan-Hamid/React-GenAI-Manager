@@ -12,8 +12,7 @@ const TaskList: React.FC<TaskListProps> = ({ tasks, onToggleTask }) => {
     return (
       <div className="text-center text-gray-500 py-6">
         <p>No tasks yet. Enter a project ticket to get started!</p>
-        <p className="text-sm mt-2">Try: "Create a responsive landing page with contact form and product showcase"</p>
-      </div>
+        </div>
     );
   }
 
