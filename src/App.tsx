@@ -73,6 +73,7 @@ function App() {
       });
 
       const responseContent = completion.choices[0]?.message?.content || '';
+      console.log(responseContent)
       const newTasks = processTaskResponse(responseContent);
       
       
